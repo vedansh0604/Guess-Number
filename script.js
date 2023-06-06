@@ -12,14 +12,14 @@ document.querySelector('.check').addEventListener('click', function(){
         document.querySelector('.message').textContent = '🚫 Enter the Number !!';
     }
     else if (guess === num){
-        document.querySelector('.message').textContent = '🥳 Hurray..Correct Number !!';
+        document.querySelector('.message').textContent = 'Hurray..Correct Number!! 🥳🥳🥳🥳';
         document.querySelector('.number').textContent = num;
 
         if(score > highscore){
             highscore = score;
             document.querySelector('.highscore').textContent = highscore;
         }
-        document.querySelector('body').style.backgroundColor = '#60b347';
+        document.querySelector('body').style.backgroundColor = '#EA906C';
         document.querySelector('.number').style.width = '30rem';
     }
 
